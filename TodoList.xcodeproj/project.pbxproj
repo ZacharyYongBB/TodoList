@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B6D3159B28F11117006D5181 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D3159A28F11117006D5181 /* TodoListApp.swift */; };
-		B6D3159D28F11117006D5181 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D3159C28F11117006D5181 /* ContentView.swift */; };
 		B6D3159F28F11118006D5181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D3159E28F11118006D5181 /* Assets.xcassets */; };
 		B6D315A228F11118006D5181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D315A128F11118006D5181 /* Preview Assets.xcassets */; };
+		B6D315AB28F11225006D5181 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D315AA28F11225006D5181 /* ListView.swift */; };
+		B6D315AD28F11486006D5181 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D315AC28F11486006D5181 /* ListRowView.swift */; };
+		B6D315AF28F116F5006D5181 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D315AE28F116F5006D5181 /* AddView.swift */; };
+		B6D315B328F11BBE006D5181 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D315B228F11BBE006D5181 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6D3159728F11117006D5181 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D3159A28F11117006D5181 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
-		B6D3159C28F11117006D5181 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6D3159E28F11118006D5181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D315A128F11118006D5181 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6D315AA28F11225006D5181 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B6D315AC28F11486006D5181 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		B6D315AE28F116F5006D5181 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		B6D315B228F11BBE006D5181 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				B6D3159A28F11117006D5181 /* TodoListApp.swift */,
-				B6D3159C28F11117006D5181 /* ContentView.swift */,
+				B6D315A928F11216006D5181 /* Views */,
+				B6D315B128F11B73006D5181 /* Models */,
 				B6D3159E28F11118006D5181 /* Assets.xcassets */,
 				B6D315A028F11118006D5181 /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				B6D315A128F11118006D5181 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6D315A928F11216006D5181 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6D315AA28F11225006D5181 /* ListView.swift */,
+				B6D315AC28F11486006D5181 /* ListRowView.swift */,
+				B6D315AE28F116F5006D5181 /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6D315B128F11B73006D5181 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6D315B228F11BBE006D5181 /* ItemModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D3159D28F11117006D5181 /* ContentView.swift in Sources */,
+				B6D315B328F11BBE006D5181 /* ItemModel.swift in Sources */,
+				B6D315AF28F116F5006D5181 /* AddView.swift in Sources */,
 				B6D3159B28F11117006D5181 /* TodoListApp.swift in Sources */,
+				B6D315AB28F11225006D5181 /* ListView.swift in Sources */,
+				B6D315AD28F11486006D5181 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
