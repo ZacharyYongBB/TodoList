@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B67ED6CD28F1A94000C2B004 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6CC28F1A94000C2B004 /* NoItemsView.swift */; };
+		B67ED6CF28F1B40E00C2B004 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67ED6CE28F1B40E00C2B004 /* Launch Screen.storyboard */; };
 		B6D3159B28F11117006D5181 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D3159A28F11117006D5181 /* TodoListApp.swift */; };
 		B6D3159F28F11118006D5181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D3159E28F11118006D5181 /* Assets.xcassets */; };
 		B6D315A228F11118006D5181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D315A128F11118006D5181 /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		B67ED6CC28F1A94000C2B004 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		B67ED6CE28F1B40E00C2B004 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B6D3159728F11117006D5181 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D3159A28F11117006D5181 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		B6D3159E28F11118006D5181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				B67ED6CC28F1A94000C2B004 /* NoItemsView.swift */,
 				B6D315AC28F11486006D5181 /* ListRowView.swift */,
 				B6D315AE28F116F5006D5181 /* AddView.swift */,
+				B67ED6CE28F1B40E00C2B004 /* Launch Screen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67ED6CF28F1B40E00C2B004 /* Launch Screen.storyboard in Resources */,
 				B6D315A228F11118006D5181 /* Preview Assets.xcassets in Resources */,
 				B6D3159F28F11118006D5181 /* Assets.xcassets in Resources */,
 			);
@@ -313,9 +317,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Things";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,9 +347,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Things";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
